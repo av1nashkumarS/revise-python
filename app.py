@@ -39,7 +39,7 @@ def db_seed():
                       planet_type='Class D',
                       home_star='Sol',
                       mass=3.258e23,
-                      radius=1520,
+                      radius=1524,
                       distance=35.98e6)
 
     venus = Planets(planet_name='Venus',
