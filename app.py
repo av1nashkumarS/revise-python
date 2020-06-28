@@ -46,7 +46,7 @@ def db_seed():
                     planet_type='Class K',
                     home_star='Sol',
                     mass=4.867e24,
-                    radius=3745,
+                    radius=3700,
                     distance=67.24e6)
 
     earth = Planets(planet_name='Earth',
