@@ -50,10 +50,10 @@ def db_seed():
                     distance=67.24e6)
 
     earth = Planets(planet_name='Earth',
-                    planet_type='Class M',
+                    planet_type='Class A',
                     home_star='Sol',
                     mass=5.972e24,
-                    radius=3959,
+                    radius=3985,
                     distance=92.96e6)
 
     db.session.add(mercury)
